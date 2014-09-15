@@ -21,6 +21,11 @@
 		9A3AC97C19C75D3200B1EA92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3AC95E19C75D3200B1EA92 /* UIKit.framework */; };
 		9A3AC98419C75D3200B1EA92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AC98219C75D3200B1EA92 /* InfoPlist.strings */; };
 		9A3AC98619C75D3200B1EA92 /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AC98519C75D3200B1EA92 /* User_Data_ChallengeTests.m */; };
+		9A3AC99119C75DEB00B1EA92 /* UDCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3AC99019C75DEB00B1EA92 /* UDCUserData.m */; };
+		9A3AC99619C7623E00B1EA92 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AC99219C7623E00B1EA92 /* person1.jpeg */; };
+		9A3AC99719C7623E00B1EA92 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AC99319C7623E00B1EA92 /* person2.jpeg */; };
+		9A3AC99819C7623E00B1EA92 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AC99419C7623E00B1EA92 /* person3.jpg */; };
+		9A3AC99919C7623E00B1EA92 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9A3AC99519C7623E00B1EA92 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		9A3AC98119C75D3200B1EA92 /* User Data ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		9A3AC98319C75D3200B1EA92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A3AC98519C75D3200B1EA92 /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
+		9A3AC98F19C75DEB00B1EA92 /* UDCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UDCUserData.h; path = ../UDCUserData.h; sourceTree = "<group>"; };
+		9A3AC99019C75DEB00B1EA92 /* UDCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UDCUserData.m; path = ../UDCUserData.m; sourceTree = "<group>"; };
+		9A3AC99219C7623E00B1EA92 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		9A3AC99319C7623E00B1EA92 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		9A3AC99419C7623E00B1EA92 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		9A3AC99519C7623E00B1EA92 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,7 @@
 				9A3AC96C19C75D3200B1EA92 /* Main.storyboard */,
 				9A3AC96F19C75D3200B1EA92 /* UDCViewController.h */,
 				9A3AC97019C75D3200B1EA92 /* UDCViewController.m */,
+				9A3AC99A19C762D900B1EA92 /* Model */,
 				9A3AC97219C75D3200B1EA92 /* Images.xcassets */,
 				9A3AC96119C75D3200B1EA92 /* Supporting Files */,
 			);
@@ -126,6 +138,10 @@
 		9A3AC96119C75D3200B1EA92 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A3AC99219C7623E00B1EA92 /* person1.jpeg */,
+				9A3AC99319C7623E00B1EA92 /* person2.jpeg */,
+				9A3AC99419C7623E00B1EA92 /* person3.jpg */,
+				9A3AC99519C7623E00B1EA92 /* person4.jpeg */,
 				9A3AC96219C75D3200B1EA92 /* User Data Challenge-Info.plist */,
 				9A3AC96319C75D3200B1EA92 /* InfoPlist.strings */,
 				9A3AC96619C75D3200B1EA92 /* main.m */,
@@ -150,6 +166,15 @@
 				9A3AC98219C75D3200B1EA92 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A3AC99A19C762D900B1EA92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A3AC98F19C75DEB00B1EA92 /* UDCUserData.h */,
+				9A3AC99019C75DEB00B1EA92 /* UDCUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3AC99819C7623E00B1EA92 /* person3.jpg in Resources */,
+				9A3AC99619C7623E00B1EA92 /* person1.jpeg in Resources */,
 				9A3AC97319C75D3200B1EA92 /* Images.xcassets in Resources */,
 				9A3AC96519C75D3200B1EA92 /* InfoPlist.strings in Resources */,
+				9A3AC99919C7623E00B1EA92 /* person4.jpeg in Resources */,
 				9A3AC96E19C75D3200B1EA92 /* Main.storyboard in Resources */,
+				9A3AC99719C7623E00B1EA92 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3AC97119C75D3200B1EA92 /* UDCViewController.m in Sources */,
+				9A3AC99119C75DEB00B1EA92 /* UDCUserData.m in Sources */,
 				9A3AC96719C75D3200B1EA92 /* main.m in Sources */,
 				9A3AC96B19C75D3200B1EA92 /* UDCAppDelegate.m in Sources */,
 			);

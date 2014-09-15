@@ -7,6 +7,7 @@
 //
 
 #import "UDCViewController.h"
+#import "UDCUserData.h"
 
 @interface UDCViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.users = [UDCUserData users];
+    NSLog(@"%@", self.users);
 }
 
 - (void)didReceiveMemoryWarning

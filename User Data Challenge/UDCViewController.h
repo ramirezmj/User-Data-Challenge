@@ -10,4 +10,6 @@
 
 @interface UDCViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end
