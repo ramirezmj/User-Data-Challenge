@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UDCViewController : UIViewController
+@interface UDCViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSArray *users;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
